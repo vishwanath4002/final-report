@@ -1,0 +1,119 @@
+\chapter{Introduction}
+
+\section{Background}
+
+Large Language Models have revolutionized natural language processing, yet face challenges in dynamic, real-time social environments. Traditional game AI relies on fixed logic trees and scripted behaviors, creating a "believability gap" between player expectations and predictable AI patterns.
+
+Recent research shows memory-augmented LLMs can maintain contextual awareness across extended interactions~\cite{liu2022,wangw2024}. Studies on generative agents~\cite{park2023generative} and stylometric analysis~\cite{mikros2023} demonstrate LLMs can mimic communication patterns and maintain consistent personas. This project leverages these breakthroughs to create an AI-controlled impostor engaging in sophisticated social deception within a 3D multiplayer environment.
+
+Set in a fictionalized Chernobyl Exclusion Zone, players investigate unexplained disappearances linked to Soviet research. Unlike traditional voting-based social deduction games, this introduces combat-based verification and continuous proximity communication. The alien impostor uses a locally hosted LLM with vector memory, emotion-aware dialogue, and stylometric mimicry~\cite{kolenbrander2023}.
+
+\section{Problem Definition}
+
+Current LLM implementations face three critical limitations in multiplayer gaming:
+
+\textbf{Memory and Consistency:} LLMs forget established facts and fail to maintain coherence across sessions~\cite{wangy2024}, creating immersion-breaking contradictions.
+
+\textbf{Emotional Adaptability:} Existing agents lack dynamic tone adjustment based on suspicion levels, proximity threats, or conversational dynamics, resulting in robotic responses.
+
+\textbf{Style Replication:} LLMs struggle to mimic individual communication patterns—slang, punctuation, sentence structure, vocabulary~\cite{mikros2023}—making AI impostors easily identifiable.
+
+These limitations prevent LLMs from functioning as believable social agents where deception, trust-building, and adaptive communication are essential~\cite{yoo2023,hagendorff2023}.
+
+\section{Scope and Motivation}
+
+The project develops a 3D first-person multiplayer social deduction game with:
+
+\begin{itemize}
+\item Chernobyl-inspired environment with mission objectives, NPC interactions, and combat mechanics supporting four synchronized players~\cite{barri2016,deng2018}.
+
+\item Locally hosted memory-augmented LLM capable of real-time deception, player impersonation, and adaptive dialogue through proximity chat~\cite{hong2025}. AI employs retrieval-augmented generation using ChromaDB/FAISS for conversational history~\cite{chen2023,muludi2023}.
+
+\item AI systems including trust graph modeling, stylometric mimicry, shapeshifting, and Theory of Mind tracking player knowledge~\cite{park2023ai,poje2023}.
+\end{itemize}
+
+Focus areas: LLM interaction architecture, game logic integration, AI deception. Excludes procedural generation—environment is manually designed. 
+
+Motivation: bridge the believability gap, advance LLM-powered autonomous agents, and investigate natural LLM behavior in group social scenarios~\cite{zeng2023}.
+
+\section{Objectives}
+
+Seven primary objectives:
+
+\textbf{1. Believable Social Deception:} Generate plausible lies, deflect suspicion, manipulate trust using memory-augmented awareness~\cite{yoo2023,danry2023}. Target: AI survives unidentified in 30\% of sessions.
+
+\textbf{2. Dynamic Linguistic Adaptation:} Real-time chat analysis extracting patterns and sentiment. Generate dialogue mimicking vocabulary, sentence structure, punctuation, and tone~\cite{mikros2023,kolenbrander2023}.
+
+\textbf{3. Memory-Augmented Architecture:} Implement ChromaDB/FAISS for recalling events, conversations, facts~\cite{liu2022,chandrasekhara2024}. Three collections: player messages, game events, NPC memory~\cite{wangw2024}.
+
+\textbf{4. Combat-Based Verification:} Novel mechanic resolving suspicion through direct confrontation, not voting—pioneering active verification with skill-based gameplay.
+
+\textbf{5. Real-Time Performance:} AI response latency under 2 seconds~\cite{motoo2021}. Optimize local LLM inference, memory retrieval, Unity-backend communication.
+
+\textbf{6. Robust Multiplayer Framework:} Stable, low-latency environment using Unity Netcode/Photon Fusion~\cite{barri2016,deng2018}. Synchronize actions, interactions, proximity chat with 99.9\% uptime.
+
+\textbf{7. Immersive Experience:} Detailed Chernobyl environment balancing psychological tension with tactical gameplay~\cite{raith2021}.
+
+\section{Risks \& Challenges}
+
+\subsection{AI Performance Risk}
+LLM may generate nonsensical dialogue or respond slowly. Mitigation: local hosting, model quantization, RAG memory system~\cite{chen2023,muludi2023}, strict prompts.
+
+\subsection{Integration Complexity}
+Unity-Python interface bottlenecks. Mitigation: gRPC protocols, clear API contracts, asynchronous processing.
+
+\subsection{AI Balance}
+Too strong or weak AI. Mitigation: separate cognitive/combat abilities, extensive playtesting, dynamic difficulty adjustment.
+
+\subsection{Toxicity Risk}
+AI replicating toxic behavior~\cite{park2023ai}. Mitigation: ethical guidelines, automated filtering, hard constraints preventing harassment imitation.
+
+\subsection{Memory Consistency}
+Database retrieval failures or inconsistent alibis~\cite{wangw2024}. Mitigation: consistency checker, metadata filters, reliability scores.
+
+\subsection{Synchronization Issues}
+LLM delays causing desync~\cite{motoo2021}. Mitigation: async-tolerant architecture, message queuing, timestamp-based ordering.
+
+\section{Assumptions}
+
+\begin{itemize}
+\item Players actively engage in text communication
+\item LLM responds within 2 seconds (Llama 3.1:8b locally)
+\item ChromaDB/FAISS retrieves context within 100-200ms~\cite{chen2023}
+\item Players exhibit distinctive communication styles~\cite{mikros2023}
+\item Consumer hardware: quad-core CPU, 8-16GB RAM minimum; 6-core, 16-32GB, RTX 2060+ recommended
+\end{itemize}
+
+\section{Societal / Industrial Relevance}
+
+\hspace{.7cm}\textbf{Gaming Innovation:} Novel NPC AI beyond scripted behaviors toward adaptive, psychologically complex characters~\cite{park2023generative,zeng2023}.
+
+\textbf{AI Research:} Controlled environment studying trust dynamics, deception modeling, Theory of Mind, long-term memory~\cite{park2023ai,poje2023,hagendorff2023}.
+
+\textbf{Cybersecurity:} Realistic human communication imitation for social engineering simulation and training~\cite{danry2023}.
+
+\textbf{Training Systems:} Memory-augmented dialogue and emotion-aware responses for crisis negotiation, communication training, scenario-based learning~\cite{kolenbrander2023}.
+
+\textbf{Human-AI Studies:} Dataset generation on interaction patterns, trust formation, deception detection, social reasoning informing AI alignment and safety.
+
+\section{Report Organization}
+\hspace{.7cm}\textbf{Chapter 1:} Background, problem definition, scope, objectives, risks, assumptions, relevance.
+
+\textbf{Chapter 2:} Literature survey on memory-augmented LLMs, social deception, stylometry, networking, autonomous agents—identifying research gaps.
+
+\textbf{Chapter 3:} System architecture, design diagrams, components, algorithms, requirements, database, module division, timeline, UI design.
+
+\textbf{Chapter 4:} Contributions summary and next semester implementation plan.
+
+Appendices contain design presentation, institutional requirements, and CO-PO-PSO mapping.
+
+\section{Summary}
+
+Project Koschei is a multiplayer game leveraging memory-augmented LLMs for real-time social deception, addressing LLM limitations in dynamic social settings: memory consistency, emotional adaptability, and style mimicry~\cite{yoo2023,hagendorff2023,danry2023}.
+
+The system integrates locally hosted LLM with vector memory~\cite{liu2022,wangw2024}, emotion-aware dialogue~\cite{kolenbrander2023}, and stylometric mimicry~\cite{mikros2023} in a 3D Chernobyl environment. Seven objectives guide development: social deception, linguistic adaptation, memory architecture, combat verification, real-time performance, multiplayer infrastructure, and immersive experience.
+
+Identified risks include AI performance, integration complexity, balance, toxicity, memory consistency, and synchronization, with mitigation strategies. Key assumptions cover player engagement, LLM latency, database performance, distinctive styles, and hardware capabilities.
+
+Beyond gaming, the project advances AI research, cybersecurity training, simulation learning, and human-AI interaction studies~\cite{park2023ai,raith2021}. Following chapters detail literature survey, system design, and implementation planning.
+

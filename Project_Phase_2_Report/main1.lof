@@ -1,0 +1,36 @@
+\acswitchoff 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A taxonomy of methods for extending LLM context, showing various approaches from attention approximation to memory management~\cite {wangy2024}.}}{7}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The LONGMEM architecture, which decouples memory retrieval into a trainable side-network to improve response latency~\cite {wangw2024}.}}{7}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Private vs public agent performance in competitive games~\cite {poje2023}.}}{8}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Memory stream system architecture for generative agents~\cite {park2023generative}}}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Linguistic feature distributions for stylometric analysis~\cite {mikros2023}.}}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces RAG system architecture~\cite {chen2023}.}}{9}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A taxonomy of latency compensation techniques for network games~\cite {motoo2021}.}}{10}{figure.caption.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System architecture showing interaction between Unity Gaming Services, Unity Client/Host, FastAPI Backend, Ollama LLM, and ChromaDB.}}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Use Case Diagram showing the main interactions between human players, the AI impostor, and backend services within Project Koschei.}}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sequence Diagram showing the message exchange between Unity, FastAPI backend, ChromaDB memory store, and the Ollama LLM during AI--player interaction.}}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Activity Diagram showing the progression of gameplay phases: connection, exploration, interaction, suspicion evaluation, and confrontation within Project Koschei.}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Class Diagram showing the main Unity and backend modules of Project Koschei and their data interactions.}}{18}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Class diagram showing the Player Control and Combat module of Project Koschei.}}{20}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Class diagram showing the Networking and Session Management module of Project Koschei.}}{21}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Class diagram showing the Player Chat and Proximity Messaging module of Project Koschei.}}{22}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Class diagram showing the AI Backend module including FastAPI, ChromaDB, and Ollama LLM integration.}}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Backend system interacting with Unity to receive player chats, store them in ChromaDB, and generate replies from the LLM.}}{30}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Semester 7: Planning and Core Development.}}{30}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Semester 8: Gameplay, AI Integration, and Optimisation.}}{31}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Player HUD during gameplay.}}{32}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Proximity chat UI.}}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Player character model with animations.}}{32}{figure.caption.34}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Login screen of Project Koschei featuring a username entry field and \textit {Play Game} button, set against a dark, atmospheric background with a looming hourglass figure.}}{35}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Multiplayer lobby interface displaying connected players (\textit {noobmaster99}, \textit {goober}), a countdown timer, and round start controls.}}{36}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces In-game HUD showing ammo (30/30), health bar (100/100), and item pick-up prompt, with the exclusion zone environment visible in the background.}}{37}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Player interacting with an NPC researcher in a blue hazmat suit. The NPC delivers survival lore via the in-game subtitle system, revealing that the advance team has been largely eliminated.}}{38}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Proximity chat during gameplay. Player 1 accuses Player 4 (the LLM impostor) of being an alien; the impostor deflects with a survival-framed denial, maintaining its cover.}}{39}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Backend terminal output showing the LLM pipeline processing an accusation from Player 1. The system selects the \texttt {seed\_doubt} strategy and generates a reply in 0.57 seconds, styled as a casual gamer and grounded in 7 buffered messages.}}{40}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A hostile alien creature encountered in the exclusion zone environment, running at 76 fps (13.2 ms) in the Unity editor. The entity's grotesque design reinforces the game's horror atmosphere.}}{41}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Boss combat encounter in a Unity test scene: a soldier engages a skeletal multi-limbed boss entity at close range, demonstrating weapon aim and enemy collision systems.}}{42}{figure.caption.42}%
+\addvspace {10\p@ }
