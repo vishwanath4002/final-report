@@ -25,12 +25,12 @@
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Proximity chat UI.}}{32}{figure.caption.34}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Player character model with animations.}}{32}{figure.caption.34}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Login screen of Project Koschei featuring a username entry field and \textit {Play Game} button, set against a dark, atmospheric background with a looming hourglass figure.}}{35}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Multiplayer lobby interface displaying connected players (\textit {noobmaster99}, \textit {goober}), a countdown timer, and round start controls.}}{36}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces In-game HUD showing ammo (30/30), health bar (100/100), and item pick-up prompt, with the exclusion zone environment visible in the background.}}{37}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Player interacting with an NPC researcher in a blue hazmat suit. The NPC delivers survival lore via the in-game subtitle system, revealing that the advance team has been largely eliminated.}}{38}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Proximity chat during gameplay. Player 1 accuses Player 4 (the LLM impostor) of being an alien; the impostor deflects with a survival-framed denial, maintaining its cover.}}{39}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Backend terminal output showing the LLM pipeline processing an accusation from Player 1. The system selects the \texttt {seed\_doubt} strategy and generates a reply in 0.57 seconds, styled as a casual gamer and grounded in 7 buffered messages.}}{40}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces A hostile alien creature encountered in the exclusion zone environment, running at 76 fps (13.2 ms) in the Unity editor. The entity's grotesque design reinforces the game's horror atmosphere.}}{41}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Boss combat encounter in a Unity test scene: a soldier engages a skeletal multi-limbed boss entity at close range, demonstrating weapon aim and enemy collision systems.}}{42}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Login screen of Project Koschei featuring a username entry field and \textit {Play Game} button}}{35}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Multiplayer lobby interface displaying connected players, a countdown timer, and round start controls.}}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces In-game HUD showing ammo (30/30), health bar (100/100), and item pick-up prompt.}}{36}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Player interacting with an NPC researcher. The NPC delivers survival lore via the in-game subtitle system.}}{36}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Proximity chat during gameplay. Player 1 accuses Player 4 (the LLM impostor) of being an alien; the impostor deflects with a survival-framed denial, maintaining its cover.}}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Backend terminal output showing the LLM pipeline processing an accusation from Player 1. The system selects the \texttt {seed\_doubt} strategy and generates a reply in 0.57 seconds, styled as a casual gamer and grounded in 7 buffered messages.}}{38}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A hostile alien creature encountered in the exclusion zone environment.}}{39}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Boss combat encounter in a Unity test scene: a soldier engages a skeletal multi-limbed boss entity at close range.}}{40}{figure.caption.42}%
 \addvspace {10\p@ }
