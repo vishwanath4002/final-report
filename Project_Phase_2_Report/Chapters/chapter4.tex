@@ -68,7 +68,7 @@ The proximity chat system is demonstrated in Figure~\ref{fig:impostor_chat}, whe
 
 \subsection{Backend LLM Decision Output}
 
-Figure~\ref{fig:backend} shows the backend terminal output captured during a live impostor reply generation. The system correctly classifies Player 1's message (\textit{``I think you're an impostor bro''}) as an \textit{accusation} with a \textit{Respond? True (1-on-1, 100\%)} decision. The LLM selects the \texttt{seed\_doubt} strategy --- described as ``weak suspicions - seeding doubt'' --- and generates the reply in \textbf{0.57 seconds}. The output fields show \textit{Style: Casual gamer}, \textit{Buffer: 7 messages}, and \textit{Facts: 1}, confirming that the memory retrieval and context assembly pipeline operated correctly before inference.
+Figure~\ref{fig:backend} shows the backend terminal output captured during a live impostor reply generation. The system correctly classifies Player 1's message (\textit{``I think you're an impostor bro''}) as an \textit{accusation} with a \textit{Respond? True (1-on-1, 100\%)} decision. The LLM selects the \texttt{seed\_doubt} strategy and generates the reply in \textbf{0.57 seconds}. The output fields show \textit{Style: Casual gamer}, \textit{Buffer: 7 messages}, and \textit{Facts: 1}, confirming that the memory retrieval and context assembly pipeline operated correctly before inference.
 
 \begin{figure}[h]
     \centering
@@ -86,7 +86,7 @@ The game world includes a hostile alien creature entity, shown in Figure~\ref{fi
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{Images/enemy.jpeg}
+    \includegraphics[width=0.4\textwidth]{Images/enemy.jpeg}
     \caption{A hostile alien creature encountered in the exclusion zone environment.}
     \label{fig:enemy}
 \end{figure}
@@ -94,12 +94,12 @@ The game world includes a hostile alien creature entity, shown in Figure~\ref{fi
 
 \subsection{Boss Encounter}
 
-Figure~\ref{fig:boss} depicts the boss combat encounter, tested on a white grid scene in Unity. A soldier player character armed with a rifle engages a skeletal, multi-armed boss entity at close range. The boss features a humanoid bone structure with additional articulated limbs splayed outward, presenting a visually distinct threat compared to standard enemy encounters. The crosshair is centred on the boss, and the scene confirms that the combat hit detection and player-enemy collision systems are functional.
+Figure~\ref{fig:boss} depicts the boss combat encounter. The boss features a humanoid bone structure with additional articulated limbs splayed outward, presenting a visually distinct threat compared to standard enemy encounters. The boss fight provides a challenging end to the game.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{Images/boss.png}
-    \caption{Boss combat encounter in a Unity test scene: a soldier engages a skeletal multi-limbed boss entity at close range.}
+    \includegraphics[width=0.5\textwidth]{Images/boss.png}
+    \caption{Boss combat encounter.}
     \label{fig:boss}
 \end{figure}
 

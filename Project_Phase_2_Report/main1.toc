@@ -33,54 +33,53 @@
 \contentsline {section}{\numberline {2.6}Multiplayer Networking and Latency}{10}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Social Dynamics in Games}{10}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Research Gaps Addressed}{10}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Summary}{11}{section.2.9}%
-\contentsline {chapter}{\numberline {3}System Design}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}System Architecture}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Design Diagrams}{14}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Use Case Diagram}{14}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Sequence Diagram}{15}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Activity Diagram}{16}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Class Diagram}{17}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Component Design}{18}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Unity Game Client}{18}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Multiplayer and Session Layer}{20}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Game Logic Layer (Host/Server Side)}{21}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}AI Backend Service}{22}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Inter-Component Interaction}{24}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Algorithms}{24}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Algorithm 1: Contextual Dialogue Generation}{24}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Algorithm 2: Associative Memory --- Store}{25}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Algorithm 3: Linguistic Profile Analysis}{25}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Algorithm 4: Goal-Oriented Behaviour}{26}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Algorithm 5: Social Relationship Graph}{26}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Algorithm 6: Associative Memory --- Retrieve}{27}{subsection.3.4.6}%
-\contentsline {section}{\numberline {3.5}Requirements}{27}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Software}{27}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Hardware}{28}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Dataset and Database}{28}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Module Division}{29}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Deliverables}{29}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Timeline}{30}{section.3.9}%
-\contentsline {section}{\numberline {3.10}UI Design}{31}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Summary}{33}{section.3.11}%
-\contentsline {chapter}{\numberline {4}Results and Discussions}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}User Interface and Session Flow}{34}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Login Screen}{34}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Multiplayer Lobby}{34}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}In-Game Systems}{35}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}HUD and World Environment}{35}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}NPC Researcher Interaction}{36}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}LLM-Driven Deception and Proximity Chat}{37}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Impostor Chat in Gameplay}{37}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Backend LLM Decision Output}{37}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Combat and Enemy Encounters}{38}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Enemy Entity}{38}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Boss Encounter}{39}{subsection.4.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusions \& Future Scope}{41}{chapter.5}%
-\contentsline {chapter}{References}{43}{chapter.5}%
-\contentsline {chapter}{Appendix A: Presentation}{45}{chapter*.43}%
-\contentsline {paragraph}{\ }{45}{paragraph*.45}%
-\contentsline {chapter}{Appendix B: Vision, Mission, Programme Outcomes and Course Outcomes}{60}{paragraph*.45}%
-\contentsline {paragraph}{\ }{60}{paragraph*.47}%
-\contentsline {chapter}{Appendix C: CO--PO--PSO Mapping}{64}{table.caption.48}%
-\contentsline {paragraph}{\ }{64}{paragraph*.50}%
+\contentsline {section}{\numberline {2.9}Summary}{13}{section.2.9}%
+\contentsline {chapter}{\numberline {3}System Design}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}System Architecture}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Design Diagrams}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Use Case Diagram}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Sequence Diagram}{17}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Activity Diagram}{18}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Class Diagram}{19}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Component Design}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Unity Game Client}{20}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Multiplayer and Session Layer}{22}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Game Logic Layer (Host/Server Side)}{23}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}AI Backend Service}{24}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Inter-Component Interaction}{26}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Algorithms}{26}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Algorithm 1: Contextual Dialogue Generation}{26}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Algorithm 2: Associative Memory --- Store}{27}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Algorithm 3: Linguistic Profile Analysis}{27}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Algorithm 4: Goal-Oriented Behaviour}{28}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Algorithm 5: Social Relationship Graph}{28}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Algorithm 6: Associative Memory --- Retrieve}{29}{subsection.3.4.6}%
+\contentsline {section}{\numberline {3.5}Requirements}{29}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Software}{29}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Hardware}{30}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Dataset and Database}{30}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Module Division}{31}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Deliverables}{31}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Timeline}{32}{section.3.9}%
+\contentsline {section}{\numberline {3.10}UI Design}{33}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Summary}{35}{section.3.11}%
+\contentsline {chapter}{\numberline {4}Results and Discussions}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}User Interface and Session Flow}{36}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Login Screen}{36}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Multiplayer Lobby}{36}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}In-Game Systems}{37}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}HUD and World Environment}{37}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}NPC Researcher Interaction}{38}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}LLM-Driven Deception and Proximity Chat}{39}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Impostor Chat in Gameplay}{39}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Backend LLM Decision Output}{39}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Combat and Enemy Encounters}{40}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Enemy Entity}{40}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Boss Encounter}{41}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusions \& Future Scope}{43}{chapter.5}%
+\contentsline {chapter}{References}{45}{chapter.5}%
+\contentsline {chapter}{Appendix A: Presentation}{47}{chapter*.43}%
+\contentsline {paragraph}{\ }{47}{paragraph*.45}%
+\contentsline {chapter}{Appendix B: Vision, Mission, Programme Outcomes and Course Outcomes}{62}{paragraph*.45}%
+\contentsline {paragraph}{\ }{62}{paragraph*.47}%
+\contentsline {chapter}{Appendix C: CO--PO--PSO Mapping}{66}{table.caption.48}%

@@ -111,6 +111,92 @@ While existing research provides strong foundations~\cite{park2023generative,hag
     \item \textbf{Local Deployment:} Consumer hardware achieving sub-2-second responses without cloud dependencies~\cite{wangw2024}.
 \end{itemize}
 
+{\small
+\renewcommand{\arraystretch}{0.85}
+
+\begin{longtable}{|p{2.3cm}|p{2.3cm}|p{3.5cm}|p{3.3cm}|p{2.8cm}|}
+
+\caption{Comparison of Existing Research Related to Project Koschei} \\
+
+\hline
+\textbf{Reference} & \textbf{Domain} & \textbf{Key Contribution} & \textbf{Techniques Used} & \textbf{Limitations} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Reference} & \textbf{Domain} & \textbf{Key Contribution} & \textbf{Techniques Used} & \textbf{Limitations} \\
+\hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Park et al.~\cite{park2023generative} &
+Generative Agents / Memory LLM &
+Introduced memory streams with timestamps and importance scores for consistent agent behavior. &
+Memory retrieval using recency, relevance, and importance weighting. &
+Not designed for real-time multiplayer environments. \\ \hline
+
+Hong and He~\cite{hong2025} &
+Memory Retrieval &
+ACAN architecture improves contextual memory retrieval using cross-attention networks. &
+Cross-attention based retrieval for contextual relevance. &
+Focused on retrieval quality, not social reasoning or gameplay. \\ \hline
+
+Liu et al.~\cite{liu2022} &
+Knowledge Representation &
+Uses structured triples (subject–predicate–object) for reasoning about relationships. &
+Knowledge graphs and relation triples. &
+Limited support for dynamic conversational contexts. \\ \hline
+
+Wang et al.~\cite{wangy2024} &
+Long Context LLMs &
+Survey of techniques for extending LLM context windows. &
+Sparse attention and memory compression methods. &
+Does not address real-time interaction constraints. \\ \hline
+
+Wang et al.~\cite{wangw2024} &
+Long-term Memory Models &
+LONGMEM decouples memory retrieval from generation to reduce latency. &
+Side-network memory retrieval architecture. &
+Still requires large infrastructure for deployment. \\ \hline
+
+Hagendorff~\cite{hagendorff2023} &
+AI Deception &
+Demonstrates emergent deceptive behavior in large language models. &
+Strategic reasoning and deception analysis. &
+Does not integrate deception with interactive gameplay systems. \\ \hline
+
+Poje et al.~\cite{poje2023} &
+Strategic Reasoning &
+Private chain-of-thought reasoning improves performance in competitive games. &
+Hidden reasoning before public responses. &
+Focuses on planning rather than player interaction dynamics. \\ \hline
+
+Mikros~\cite{mikros2023} &
+Stylometry &
+Evaluates LLM ability to imitate writing styles using stylometric features. &
+Lexical diversity, punctuation patterns, syntactic features. &
+Struggles with subtle individual writing idiosyncrasies. \\ \hline
+
+Chen et al.~\cite{chen2023} &
+Retrieval Augmented Generation &
+Shows retrieval quality as the main bottleneck in RAG systems. &
+Semantic chunking and cross-encoder reranking. &
+Not optimized for game-event memory retrieval. \\ \hline
+
+Motoo et al.~\cite{motoo2021} &
+Multiplayer Networking &
+Proposes latency compensation methods for networked games. &
+Adaptive time-rewinding and latency prediction. &
+Focuses on networking rather than AI behavior. \\ \hline
+
+\end{longtable}
+}
+
 \section{Summary}
 
 This survey examined research across memory-augmented LLMs~\cite{park2023generative,liu2022,wangw2024}, AI deception~\cite{hagendorff2023,poje2023}, stylometry~\cite{mikros2023,kolenbrander2023}, networking~\cite{motoo2021,barri2016}, and social dynamics~\cite{raith2021}. Key findings establish that generative agents can maintain believable behavior, LLMs possess emergent deception, and advanced networking enables responsive experiences.
