@@ -1,0 +1,170 @@
+
+%% RSET Project / Seminar LaTex Template Version 1.0 - November 2023
+
+\documentclass[12pt,a4paper,titlepage]{report}
+\usepackage{graphicx}
+\usepackage[left=2.8cm, right=2.2cm, top=3cm, bottom=2.5cm]{geometry}
+\usepackage{latexsym}		% to get LASY symbols
+\usepackage{epsfig}			% to insert PostScript figures
+\usepackage{eufrak}
+\usepackage{type1cm}
+\usepackage{newsec}
+\usepackage{titlesec}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage[export]{adjustbox}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{acro}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\definecolor{customgreen}{rgb}{0,0.6,0}
+\definecolor{customgray}{rgb}{0.5,0.5,0.5}
+\definecolor{custommauve}{rgb}{0.6,0,0.8}
+\lstdefinelanguage{HTML}{
+	sensitive=true,
+	keywords={},
+	otherkeywords={<, >, /},
+	morecomment=[s]{<!--}{-->},
+	morestring=[b]"
+}
+
+
+\lstset{ 
+	basicstyle=\small,        % the size of the fonts that are used for the code
+	breaklines=true,                 % sets automatic line breaking
+	commentstyle=\color{customgreen},    % comment style
+	firstnumber=1,                % start line enumeration with line 1000
+	frame=single,	                   % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\color{blue},       % keyword style
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=10pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{customgray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{custommauve},     % string literal style
+	tabsize=2,	                   % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+
+\titleformat{\chapter}[display]
+{\normalfont\Large\bfseries\centering}{\chaptertitlename\
+	\thechapter}{25pt}{\Large}
+\titleformat{\section}{\normalfont\bfseries}{\noindent\thesection}{20pt}{}
+\titleformat{\subsection}{\normalfont\small\bfseries}{\thesubsection}{15pt}{\small}
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+\usepackage{hyperref}
+\usepackage{url}
+
+
+\begin{document}
+    
+	\titlepage
+	\thispagestyle{empty}
+% \input{Chapters/vishwanath_titlepage.tex}
+% \input{Chapters/serah_titlepage.tex}
+% \input{Chapters/nandha_titlepage.tex}
+\input{Chapters/sreenandan_titlepage.tex}
+% \input{Chapters/team_titlepage.tex}
+	
+	
+
+    
+	
+\renewcommand{\baselinestretch}{1.5}\normalsize
+\newpage
+	%\renewcommand\abstractname{ACKNOWLEDGEMENTS}
+% \input{Chapters/vishwanath_acknowledgements.tex}
+% \input{Chapters/serah_acknowledgements.tex}
+% \input{Chapters/nandha_acknowledgements.tex}
+\input{Chapters/sreenandan_acknowledgements.tex}
+% \input{Chapters/team_acknowledgements.tex}
+		
+		
+\newpage
+ 
+\renewcommand{\baselinestretch}{1.5}\normalsize
+	
+\input{Chapters/abstract.tex}    
+		
+		%\end{spacing}
+	%\end{abstract}
+	
+	
+	\newpage
+	\normalsize{}
+	
+	%\pagenumbering{roman}
+	%\setcounter{page}{4}
+	%\begin{spacing}{}
+	\tableofcontents
+	%\end{spacing}
+	% \thispagestyle{empty}
+	\newpage
+	
+\input{Chapters/abbreviations.tex}
+
+\newpage
+
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List of Figures}
+	% \thispagestyle{empty}
+	\newpage
+	
+
+   % \pagenumbering{roman}
+	%\setcounter{page}{9}
+	\listoftables
+	\addcontentsline{toc}{chapter}{List of Tables}
+%	\addcontentsline{toc}{chapter}{List of Abbreviations}
+%	\listof{Abbreviations}
+	% \thispagestyle{empty}
+    \newpage
+    
+
+    
+\cleardoublepage
+	
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{Chapters/introduction.tex}
+\input{Chapters/lit_survey.tex}	
+\input{Chapters/chapter3.tex}	
+\input{Chapters/chapter4.tex}	
+%\input{Chapters/chapter5.tex}	
+\input{Chapters/conclusion.tex}	
+	
+
+
+\clearpage
+\renewcommand{\bibname}{References} 
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{IEEEtran}
+\input{references.bib}
+% \bibliography{references}  % Changed from 
+	
+
+\input{Chapters/list_of_publications.tex}
+	
+	
+\input{Appendices/appendix_A.tex}
+\input{Appendices/appendix_B.tex}
+	%\clearpage
+	
+
+	
+\input{Appendices/co_po_pso_mapping.tex}
+	
+\end{document}
